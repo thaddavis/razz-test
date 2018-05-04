@@ -1,0 +1,33 @@
+.DrawerToggle {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-top: 1px solid #9E9E9E;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid #9E9E9E;
+}
+
+.DrawerToggleTop {
+    width: 60%;
+    height: 2px;
+    background-color: #9E9E9E;
+}
+
+.DrawerToggleMiddle {
+    width: 80%;
+    height: 2px;
+    background-color: black;
+}
+
+.DrawerToggleBottom {
+    width: 60%;
+    height: 1px;
+    background-color: black;
+}

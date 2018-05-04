@@ -1,0 +1,25 @@
+.NavigationItems {
+    border: 4px solid pink;
+    list-style: none;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+@media (max-height: 700px) {
+
+  .NavigationItems {
+      border: 4px solid purple;
+      list-style: none;
+      list-style-position: inside;
+      display: flex;
+      flex-direction: start;
+      height: 80%;
+      justify-content: start;
+      overflow-y: scroll;
+  }
+
+}
