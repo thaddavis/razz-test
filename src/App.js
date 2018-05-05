@@ -4,7 +4,8 @@ import backgroundImage from './assets/images/2000x1000.png'
 import downArrowImage from './assets/images/ArrowDown.png'
 
 import Layout from './components/Layout/Layout.jsx';
-import SimpleSlider from './components/Carousel/Carousel.jsx';
+import Footer from './components/Footer/Footer.jsx';
+import MultipleItems from './components/Slider/Slider.jsx';
 import classes from './App.css';
 
 class App extends Component {
@@ -43,17 +44,23 @@ class App extends Component {
             </div>
           </div>
 
-          <div className={classes.row}>
-            <h2>
-              Floor Plans
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
-            </p>
+          <div className={classes.floorPlans}>
+            <div className={classes.row}>
+              <h1>
+                Floor Plans
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+              </p>
+            </div>
           </div>
 
           <div className={classes.row}>
-            <SimpleSlider/>
+            <MultipleItems/>
+          </div>
+
+          <div className={classes.footer}>
+            <Footer/>
           </div>
 
         </Layout>

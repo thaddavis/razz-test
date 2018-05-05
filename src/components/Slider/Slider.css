@@ -1,0 +1,5 @@
+.Image {
+  width: 50%;
+  transform: translate(50%);
+  border: 1px groove black;
+}
