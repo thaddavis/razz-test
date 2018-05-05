@@ -22,6 +22,16 @@ const navigationItem = ( props ) => {
       )
     }
 
+    if (props.home) {
+      link = (
+        <li className={[classes.NavigationItem, classes.HomeNavigationItem].join(' ')}>
+          <a href={props.link} className={props.active ? classes.active : null}>
+            {props.children}
+          </a>
+        </li>
+      )
+    }
+
     return link
 
 }

@@ -3,7 +3,7 @@
 }
 
 .NavigationItem a {
-    border: 2px groove white;
+    /* border: 2px groove white; */
     color: white;
     text-decoration: none;
     margin: 10px auto;
@@ -17,6 +17,10 @@
     font-weight: 100;
     position: relative;
     left: -0px;
+}
+
+.HomeNavigationItem a {
+  border: 2px groove white;
 }
 
 .NavigationItem a:hover,

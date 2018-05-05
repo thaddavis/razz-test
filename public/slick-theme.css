@@ -213,6 +213,8 @@
   background: #E2B75B;
 }
 
+/* CUSTOM STYLES */
+
 #circle {
   width: 16px;
   height: 16px;
@@ -221,3 +223,8 @@
   border-radius: 10px;
   border: 2px solid #E2B75B;
 }
+
+/* .fa-angle-down {
+  color: white;
+  position: relative;
+} */

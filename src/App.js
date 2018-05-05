@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import backgroundImage from './assets/images/2000x1000.png'
 import downArrowImage from './assets/images/ArrowDown.png'
+import upArrowImage from './assets/images/ArrowUp.png'
 
 import Layout from './components/Layout/Layout.jsx';
 import Footer from './components/Footer/Footer.jsx';
@@ -61,6 +62,26 @@ class App extends Component {
 
           <div className={classes.footer}>
             <Footer/>
+          </div>
+
+          <div className={classes.footNoteRow}>
+            <div className={classes.footNoteRowL}>
+              Copyright © 2017 Developer Test
+            </div>
+
+            <div className={classes.footNoteRowM}>
+
+            </div>
+
+            <div className={classes.footNoteRowR}>
+              Powered By <b>Razz Interactive</b>
+            </div>
+          </div>
+
+          <div>
+            <img className={classes.upArrowImage} src={upArrowImage} alt="Arrow Up" style ={ {
+                clipPath: "polygon(40% 0%, 100% 0%, 100% 100%, 20% 100%, 20% 24%)"
+              } }/>
           </div>
 
         </Layout>

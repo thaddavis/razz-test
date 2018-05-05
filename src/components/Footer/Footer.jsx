@@ -20,53 +20,46 @@ class Footer extends Component {
         </div>
         <div className={classes.footerColumnForm}>
           <div>
+            <h1 className={classes.contactUs}>
+              Contact Us
+            </h1>
             <form action="#">
 
-              <div class="row">
-                <div class="col-25">
-                  <label for="fname">First Name</label>
-                </div>
-                <div class="col-75">
+              <div className={classes.row}>
+                <div className={classes.col50A}>
                   <input type="text" id="fname" name="firstname" placeholder="First Name"/>
                 </div>
-              </div>
-
-              <div class="row">
-                <div class="col-25">
-                  <label for="lname">Last Name</label>
-                </div>
-                <div class="col-75">
+                <div className={classes.col50B}>
                   <input type="text" id="lname" name="lastname" placeholder="Last Name"/>
                 </div>
               </div>
 
-              <div class="row">
-                <div class="col-25">
-                  <label for="lname">Email</label>
-                </div>
-                <div class="col-75">
+              <div className={classes.row}>
+                <div className={classes.col100}>
                   <input type="email" id="email" name="email" placeholder="Email"/>
                 </div>
               </div>
 
-              <div class="row">
-                <div class="col-25">
-                  <label for="how">How Did You Hear About Us?</label>
-                </div>
-                <div class="col-75">
+              <div className={classes.row}>
+                <div className={classes.col100}>
                   <select id="how" name="how">
-                    <option value="">How Did You Hear About Us?</option>
-                    <option value="indeed">Indeed.com</option>
-                    <option value="monster">Monster.com</option>
+                    <option value="">HOW DID YOU HEAR ABOUT US?</option>
+                    <option value="indeed">INDEED.COM</option>
+                    <option value="monster">MONSTER.COM</option>
                   </select>
                 </div>
               </div>
 
-              <div class="row">
-                <input type="submit" value="Submit" />
+              <div className={classes.row}>
+                <div className={classes.col100}>
+                  <button type="submit" value="SUBMIT">
+                    SUBMIT
+                  </button>
+                </div>
               </div>
 
             </form>
+
           </div>
         </div>
       </div>
